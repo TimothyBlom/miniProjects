@@ -6,32 +6,19 @@ body {
   color: white;
 }
 
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 200px;
-}
-
 .headerLogo {
   height: 100px;
-  position: fixed;
   padding-right: 100%;
+  margin-bottom: 100px;
   background-color: rgba(255, 255, 255, 0.226);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.exampleContainer {
+  background-color: black;
+  padding: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.boxButton {
+  height: 500px;
+  margin-left: 100px
 }
